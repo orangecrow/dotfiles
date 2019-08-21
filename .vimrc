@@ -8,3 +8,4 @@ map ,b :ls<CR>:b!<Space>
 map ,n :bn!<CR>
 map ,p :bp!<CR>
 map ,s :set scrollbind<CR>
+set background=dark
