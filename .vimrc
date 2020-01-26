@@ -3,6 +3,7 @@ set number
 set relativenumber
 set shiftwidth=4
 set tabstop=4
+set smartindent
 map <Space> <C-w>
 map ,b :ls<CR>:b!<Space>
 map ,n :bn!<CR>
