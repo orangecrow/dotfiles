@@ -7,7 +7,8 @@ timedatectl set-ntp true
 #sgdisk -new=2:0:+2G $1
 #sgdisk -new=3:0:0 $1
 wipefs $1
-printf "g
+fdisk $1 << EOF
+g
 n
 1
 
@@ -29,7 +30,7 @@ t
 A
 1
 w
-" | fdisk $1
+EOF
 mkfs.ext4 ${1}3
 mkswap ${1}2
 mount ${1}3 /mnt
