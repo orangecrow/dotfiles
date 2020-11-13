@@ -10,3 +10,5 @@ map ,n :bn!<CR>
 map ,p :bp!<CR>
 map ,s :set scrollbind<CR>
 set background=dark
+syntax on
+set hls
