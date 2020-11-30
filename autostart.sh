@@ -1,3 +1,4 @@
-if [ $DISPLAY ]; then
-exec xkbcomp /home/adam/WakeToInsSleepToScroll $DISPLAY
-fi
+#xkbcomp /home/adam/WakeToInsSleepToScroll $DISPLAY
+feh --bg-max ~/Pictures/8.jpg
+xkbcomp ~/xkb/keyboardlayout.xkb $DISPLAY
+
